@@ -1,5 +1,5 @@
-function [f, performance_metrics] = RL_NSWOA(D, M, LB, UB, Pop, SearchAgents_no, Max_iteration, ishow, Max_evals)
-%% Reinforcement Learning Enhanced Non-Sorted Whale Optimization Algorithm (RL-NSWOA)
+function [f, performance_metrics] = RL_MOWOA(D, M, LB, UB, Pop, SearchAgents_no, Max_iteration, ishow, Max_evals)
+%% Reinforcement Learning Enhanced Non-Sorted Whale Optimization Algorithm (RL-MOWOA)
 % 基于强化学习的非排序鲸鱼优化算法
 % 使用Q-learning自适应调整算法参数以提高性能
 %
